@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = 'pl'>
+<head> 
+    <meta charset="UTF-8">
+    <title> GoActive </title>
+    <link rel = "stylesheet" href = "koszulki.css">
+    <link rel = "icon" type = "image/x-icon" href = "images/Active.ico">
+    <meta name = "author" content = "Jakub Szczepański">
+    <meta name="description" content = "Strona sklepu GoActive">
+    <meta name="keywords" content ="GoActive">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topnav">
+    <div class="nav" id="n1">
+    <a href="goactiveglowna.html">Strona Główna</a>
+    </div>  
+    <div class="nav" id="n2">
+    <a href="koszulki.html" style="font-weight: 600;">Koszulki</a>
+    </div>
+    <div class="nav" id="n3">
+    <a href="bluzy.html">Bluzy</a>
+    </div>
+</header>
+<main>
+    <div class="katalog">
+        <div id="box1">
+            <img src="images/KoszulkaB.PNG" alt="Produkt1" class="normal">
+                <div class="popup" onclick="myFunction('myPopup')"> i
+                    <span class="popuptext" id="myPopup">
+                        Informacje o produkcie:
+                        Krój: Standardowy <br>
+                        Materiał: 75% bawełna / 25% poliester <br>
+                        Kolor: Biały
+                    </span>
+                </div>
+        </div>
+        <div id="box2">
+            <img src="images/KoszulkaP.PNG" alt="Produkt2" class="normal">
+                <div class="popup" onclick="myFunction('myPopup1')"> i
+                    <span class="popuptext" id="myPopup1">
+                        Informacje o produkcie:
+                        Krój: Standardowy <br>
+                        Materiał: 75% bawełna / 25% poliester <br>
+                        Kolor: Beżowy
+                    </span>
+                </div>
+        </div>
+        <div id="box3">
+            <img src="images/KoszulkaN.PNG" alt="Produkt3" class="normal">
+                <div class="popup" onclick="myFunction('myPopup2')"> i
+                    <span class="popuptext" id="myPopup2">
+                        Informacje o produkcie:
+                        Krój: Standardowy <br>
+                        Materiał: 75% bawełna / 25% poliester <br>
+                        Kolor: Niebieski
+                    </span>
+                </div>
+        </div>
+    </div>
+    <div class="katalog1">
+        <div id="box4">
+            <img src="images/KoszulkaCZ.PNG" alt="Produkt4" class="normal">
+                <div class="popup" onclick="myFunction('myPopup3')"> i
+                    <span class="popuptext" id="myPopup3">
+                        Informacje o produkcie:
+                        Krój: Standardowy <br>
+                        Materiał: 75% bawełna / 25% poliester <br>
+                        Kolor: Ciemno-zielony
+                    </span>
+                </div>
+        </div>
+        <div id="box5">
+            <img src="images/Koszulkar.PNG" alt="Produkt5" class="eco">
+                <img src="images/lisc.png" alt="lisc" class="lisc">
+                    <div class="popup" onclick="myFunction('myPopup4')"> i
+                        <span class="popuptext" id="myPopup4">
+                            Informacje o produkcie:
+                            <b>Produkt ekologiczny</b> <br>
+                            Krój: Standardowy <br>
+                            Materiał: 100% Poliester pochodzący z recyklingu <br>
+                            Kolor: Różowy
+                        </span>
+                    </div>
+        </div>
+        <div id="box6">
+            <img src="images/KoszulkaCg.PNG" alt="Produkt6" class="eco">
+                <img src="images/lisc.png" alt="lisc" class="lisc">
+                    <div class="popup" onclick="myFunction('myPopup5')"> i
+                        <span class="popuptext" id="myPopup5">
+                            Informacje o produkcie:
+                            <b>Produkt ekologiczny</b> <br>
+                            Krój: Standardowy <br>
+                            Materiał: 100% Poliester pochodzący z recyklingu <br>
+                            Kolor: Czerwony
+                        </span>
+                    </div>
+        </div>
+    </div>
+</main>
+<script>
+    function myFunction(p) {
+        var popup = document.getElementById(p);
+        popup.classList.toggle("show");
+    }
+</script>
+</body>
+</html>

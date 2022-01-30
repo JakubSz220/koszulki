@@ -1,0 +1,128 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: white;
+    
+}
+.topnav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-right: 15px;
+	
+}
+.topnav a{
+    color:black;
+    text-decoration: none;
+}
+
+.nav{
+    margin-top: 5px;
+    padding: 8px;
+    width: 113px;
+    text-align: center;
+}
+
+#n1,#n3{
+    border: solid;
+    font-size: 18px;
+    background-color: #fdfaec;
+}
+#n2{
+    border-top: solid;
+    border-bottom: solid;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #fdfaec;
+}
+
+.katalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 8px;
+    
+   
+}
+.katalog1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 70px;
+    
+    
+    
+}
+.normal{
+    height: 283px;
+    width: 250px;
+    margin-left: 20px;
+}
+.eco{
+    height: 283px;
+    width: 260px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: greenyellow;
+    margin-left: 90px;
+   
+}
+.lisc{
+    margin-bottom: 220px;
+    height: 50px;
+    width: 30px;
+
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
